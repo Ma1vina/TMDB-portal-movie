@@ -1,0 +1,78 @@
+.style-header {
+  text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+h1{
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 100px;
+	padding-top: 30px;
+}
+
+h3{
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 25px;	
+}
+
+.box-header{
+  background-color: rgb(0, 10, 0);
+}
+
+
+.box-link{
+display: flex;
+  flex-direction: row;
+ margin-bottom: 5px;
+ margin-top: 3%;
+}
+
+.link-film{
+margin-right: 15px;
+background-color:  rgba(57, 61, 57, 0.822);
+border: solid 1px rgb(0, 0, 0);
+border-radius: 7px;
+padding: 6px;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.link-actors{
+margin-left: 15px;
+background-color:  rgba(57, 61, 57, 0.822);
+border: solid 1px rgb(0, 0, 0);
+border-radius: 7px;
+padding: 6px;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+a{
+color: rgb(218, 181, 252);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 14px;
+	
+}
+
+.active{
+	color: rgb(218, 181, 252);
+  background-repeat: no-repeat;
+	background-position: center bottom 1px;
+	background-size: 100% 4px;
+	background-image: linear-gradient(to right, red, blue);
+}

@@ -1,0 +1,38 @@
+.search-style {
+  margin: 20px;
+  padding-left: 10px;
+}
+
+.box-menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.flex-film {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 5fr));
+  width: 1000px;
+  margin-left: 5%;
+  background-color: black;
+  margin: auto;
+  margin-top: 0;
+  padding: 15px;
+  padding-left: 40px;
+}
+
+.backgr-films {
+  background-image: url("../../imgs/cinem.jpg");
+  background-size: cover;
+}
+
+.style-paginations {
+  background-color: rgb(242, 198, 253, 0.7);
+  width: 32%;
+  padding: 5px;
+  padding-left: 10px;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  margin-left: 32%;
+  margin-right: 32%;
+}

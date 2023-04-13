@@ -1,0 +1,54 @@
+.list-actors-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.style-actors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
+  width: 2000px;
+  margin-left: 5%;
+  background-color: black;
+  margin: auto;
+  margin-top: 0;
+  padding: 15px;
+  padding-left: 40px;
+}
+
+.style-name{
+  font-size: 20px;
+ padding-bottom: 10px;
+ color: white;
+}
+
+.box-person{
+  border-bottom: solid 1px rosybrown;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.box-person:hover{
+  border-bottom: solid 4px rgb(87, 16, 121);
+  border-radius: 25px;
+  margin: 10px;
+  background-repeat: no-repeat;
+	background-position: center bottom -0.5px;
+	background-size: 100% 4px;
+	background-image: linear-gradient(to right, red, blue);
+}
+
+.style-paginations{
+  background-color: rgb(242, 198, 253, 0.7);
+  width: 32%;
+  padding: 5px;
+  padding-left: 10px;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  margin-left: 32%;
+  margin-right: 32%;
+}
