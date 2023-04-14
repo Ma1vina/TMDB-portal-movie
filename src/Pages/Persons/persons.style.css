@@ -11,12 +11,12 @@
 .style-actors {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
-  width: 2000px;
+  width: 1980px;
   margin-left: 1%;
   background-color: black;
   margin-top: 0;
   padding: 15px;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .style-name{
@@ -28,16 +28,16 @@
 .box-person{
   border-bottom: solid 1px rosybrown;
   border-radius: 25px;
-  margin: 10px;
+  margin: 3px;
 }
 
 .box-person:hover{
   border-bottom: solid 4px rgb(87, 16, 121);
   border-radius: 25px;
-  margin: 10px;
+  margin: 3px;
   background-repeat: no-repeat;
 	background-position: center bottom -0.5px;
-	background-size: 100% 4px;
+	background-size: 90% 4px;
 	background-image: linear-gradient(to right, red, blue);
 }
 
@@ -48,6 +48,6 @@
   padding-left: 10px;
   border: solid 1px transparent;
   border-radius: 10px;
-  margin-left: 32%;
-  margin-right: 32%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
