@@ -37,7 +37,7 @@
   margin: 3px;
   background-repeat: no-repeat;
 	background-position: center bottom -0.5px;
-	background-size: 90% 4px;
+	background-size: 100% 4px;
 	background-image: linear-gradient(to right, red, blue);
 }
 
