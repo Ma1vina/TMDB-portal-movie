@@ -77,8 +77,8 @@ export const Persons = () => {
               <div className="box-person">
                 <img
                   src={`https://image.tmdb.org/t/p/original${person?.profile_path}`}
-                  width="350"
-                  height="500"
+                  width="250"
+                  height="380"
                   alt="img"
                 />
                 <div className="style-name">{person.name}</div>
