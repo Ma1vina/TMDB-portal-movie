@@ -10,13 +10,9 @@
 
 .style-actors {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
-  width: 1800px;
-  margin-left: 1%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 5fr));
+  width: 100%;
   background-color: black;
-  margin-top: 0;
-  padding: 15px;
-  padding-left: 30px;
 }
 
 .style-name{
@@ -26,14 +22,14 @@
 }
 
 .box-person{
-  border-bottom: solid 1px rosybrown;
+  border-bottom: solid 2px rosybrown;
   border-radius: 25px;
   margin: 3px;
   max-width: 350px;
 }
 
 .box-person:hover{
-  border-bottom: solid 4px rgb(87, 16, 121);
+  border-bottom: solid 2px rgb(87, 16, 121);
   border-radius: 25px;
   margin: 3px;
   background-repeat: no-repeat;
