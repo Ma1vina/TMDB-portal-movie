@@ -12,9 +12,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
   width: 2000px;
-  margin-left: 5%;
+  margin-left: 1%;
   background-color: black;
-  margin: auto;
   margin-top: 0;
   padding: 15px;
   padding-left: 40px;
